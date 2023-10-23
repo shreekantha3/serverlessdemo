@@ -4,6 +4,7 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: nodejs18.x
+  region: ap-south-1
 
 functions:
   youtubeHelloFun: 
@@ -12,3 +13,4 @@ functions:
       - httpapi:
         path: /hello
         method: GET 
+
